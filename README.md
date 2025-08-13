@@ -1,44 +1,62 @@
-# ML Life Cycle: Data Understanding and Data Preparation
-This project implements the Data Understanding and Data Preparation phases of the Machine Learning life cycle using the Airbnb NYC listings dataset. The goal is to prepare a clean, structured dataset suitable for building a regression model to predict listing prices.
+# Data Preparation for Modeling
+This project implements the Data Understanding and Data Preparation phases of the Machine Learning foundations using the Airbnb NYC listings dataset. The goal is to prepare a clean, structured dataset suitable for building a regression model to predict listing prices.
 
 ## Project Overview
 This project focuses on the Data Understanding and Data Preparation phases of the Machine Learning life cycle, applied to the Airbnb NYC listings dataset. The objective is to prepare a clean, structured dataset suitable for training a regression model to predict Airbnb listing prices.
-The lab covers:
+
+## Objectives
+By completing this lab, I practiced:
+- Loading and inspecting real-world datasets
+- Preparing the label column and selecting relevant features
+- Handling outliers and missing values appropriately
+- Applying **one-hot encoding** to categorical variables
+- Exploring correlations and creating bivariate plots
+- Providing analysis and insights based on data relationships
+  
+## Methodology
+The lab was structured into five parts, aligned with the grading rubric:
 
 1. Build the Data Matrix & Define the ML Problem
-- Loaded and inspected the Airbnb dataset.
-- Defined the label (price), cleaned currency formatting, and converted it to numeric.
-- Identified relevant features and removed non-predictive columns such as URLs and identifiers.
+  - Loaded and inspected the Airbnb dataset.
+  - Defined the label (price), cleaned currency formatting, and converted it to numeric.
+  - Identified relevant features and removed non-predictive columns such as URLs and identifiers.
 
 2. Clean the Data
-- Outlier handling: Applied winsorization to replace top and bottom 1% price outliers, creating a new label column label_price.
-- Missing values: Detected missing data, created missingness indicator columns (*_na), and imputed numerical missing values with column means.
+  - Outlier handling: Applied winsorization to replace top and bottom 1% price outliers, creating a new label column label_price.
+  - Missing values: Detected missing data, created missingness indicator columns (*_na), and imputed numerical missing values with column means.
 
 3. Feature Transformation
-- Applied one-hot encoding to categorical variables such as host_response_time and room_type to make them suitable for modeling.
+  - Converted categorical variables into numerical format using one-hot encoding
+  - Ensured no loss of relevant information during transformation
 
 4. Exploratory Data Analysis (EDA)
-- Computed correlations between features and the label.
-- Identified accommodates and bedrooms as the top predictors of price.
-- Created bivariate kernel density plots to visualize the relationships.
+  - Computed correlations between features and the label.
+  - Identified accommodates and bedrooms as the top predictors of price.
+  - Created bivariate kernel density plots to visualize the relationships.
 
 5. Insights & Recommendations
-- Price increases with listing size and capacity.
-- Several unstructured text fields (name, description, amenities) could add predictive value with NLP preprocessing in future work.
-- Suggested transformations for date fields and categorical binary text features before modeling.
+  - Price increases with listing size and capacity.
+  - Several unstructured text fields (name, description, amenities) could add predictive value with NLP preprocessing in future work.
+  - Suggested transformations for date fields and categorical binary text features before modeling.
 Analysis & Insights
 
+## 📊 Results & Insights
+  - Successfully prepared a clean dataset ready for machine learning
+  - Identified key features with the strongest relationship to the label
+  - Visualized patterns that could guide feature selection in modeling
+  - Reinforced the importance of handling outliers and missing values early in the ML lifecycle
+
 ## Skills & Techniques
-- Data Cleaning: Outlier handling, missing value imputation, feature selection.
-- Feature Engineering: One-hot encoding categorical features, creating indicator variables.
-- Exploratory Data Analysis: Correlation analysis, visualization with Seaborn.
-- Pandas & NumPy: Data wrangling and transformation.
-- Visualization: Pair plots and kernel density estimation.
+  - Data Cleaning: Outlier handling, missing value imputation, feature selection.
+  - Feature Engineering: One-hot encoding categorical features, creating indicator variables.
+  - Exploratory Data Analysis: Correlation analysis, visualization with Seaborn.
+  - Pandas & NumPy: Data wrangling and transformation.
+  - Visualization: Pair plots and kernel density estimation.
 
 ## Files
-- DataUnderstandingAndPreparation.ipynb – Jupyter Notebook with all code, outputs, and explanations.
-- DataUnderstandingAndPreparation.py – Python script version of the lab.
-- DataUnderstandingAndPreparation.pdf – Exported PDF of the lab results.
+  - DataUnderstandingAndPreparation.ipynb – Jupyter Notebook with all code, outputs, and explanations.
+  - DataUnderstandingAndPreparation.py – Python script version of the lab.
+  - DataUnderstandingAndPreparation.pdf – Exported PDF of the lab results.
 
 Installation & Usage
 1. Clone the repository:
