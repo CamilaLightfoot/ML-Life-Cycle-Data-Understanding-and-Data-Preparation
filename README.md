@@ -54,7 +54,7 @@ Analysis & Insights
   - Visualization: Pair plots and kernel density estimation.
 
 ## Files
-  - DataUnderstandingAndPreparation.ipynb – Jupyter Notebook with all code, outputs, and explanations.
+  - [DataUnderstandingAndPreparation.ipynb](https://github.com/CamilaLightfoot/ML-Life-Cycle-Data-Understanding-and-Data-Preparation/blob/main/DataUnderstandingAndPreparation.ipynb): Jupyter Notebook with all code, outputs, and explanations.
   - DataUnderstandingAndPreparation.py – Python script version of the lab.
   - DataUnderstandingAndPreparation.pdf – Exported PDF of the lab results.
 
