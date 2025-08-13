@@ -1,4 +1,4 @@
-# airbnbData_train.csv
+airbnbData_train.csv
 This CSV file contains the training dataset used for Lab 2 – Data Preparation for Modeling, sourced from the Airbnb NYC Listings dataset.
 It includes structured information about Airbnb properties in New York City, such as:
 
