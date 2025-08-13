@@ -12,7 +12,7 @@ By completing this lab, I practiced:
 - Applying **one-hot encoding** to categorical variables
 - Exploring correlations and creating bivariate plots
 - Providing analysis and insights based on data relationships
-  
+
 ## Methodology
 The lab was structured into five parts, aligned with the grading rubric:
 
@@ -38,7 +38,8 @@ The lab was structured into five parts, aligned with the grading rubric:
   - Price increases with listing size and capacity.
   - Several unstructured text fields (name, description, amenities) could add predictive value with NLP preprocessing in future work.
   - Suggested transformations for date fields and categorical binary text features before modeling.
-Analysis & Insights
+
+## Database used: [airbnbData_train.csv](https://github.com/CamilaLightfoot/ML-LifeCycle-Data-Preparation-for-Modeling/blob/main/Database/airbnbData_train.csv)
 
 ## 📊 Results & Insights
   - Successfully prepared a clean dataset ready for machine learning
