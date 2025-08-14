@@ -41,7 +41,7 @@ The lab was structured into five parts, aligned with the grading rubric:
 
 ## Database used: [airbnbData_train.csv](https://github.com/CamilaLightfoot/ML-LifeCycle-Data-Preparation-for-Modeling/blob/main/Database/airbnbData_train.csv)
 
-## 📊 Results & Insights
+## Results & Insights
   - Successfully prepared a clean dataset ready for machine learning
   - Identified key features with the strongest relationship to the label
   - Visualized patterns that could guide feature selection in modeling
